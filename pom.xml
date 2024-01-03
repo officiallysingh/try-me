@@ -16,6 +16,7 @@
         <commons-lang3.version>3.14.0</commons-lang3.version>
         <commons-collections4.version>4.4</commons-collections4.version>
         <guava.version>32.1.3-jre</guava.version>
+        <datafaker.version>2.0.2</datafaker.version>
         <lombok.version>1.18.30</lombok.version>
 
         <maven.compiler.source>${java.version}</maven.compiler.source>
@@ -38,6 +39,11 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>${guava.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>net.datafaker</groupId>
+            <artifactId>datafaker</artifactId>
+            <version>${datafaker.version}</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
